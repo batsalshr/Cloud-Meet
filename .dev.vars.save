@@ -1,0 +1,5 @@
+ADMIN_EMAIL=you@gmail.com
+JWT_SECRET=some-long-random-string
+APP_URL=http://localhost:8788
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=..

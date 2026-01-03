@@ -1,0 +1,98 @@
+{
+	"/": [
+		"src/routes/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/api/availability": [
+		"src/routes/api/availability/+server.ts"
+	],
+	"/api/availability/month": [
+		"src/routes/api/availability/month/+server.ts"
+	],
+	"/api/bookings": [
+		"src/routes/api/bookings/+server.ts"
+	],
+	"/api/bookings/cancel": [
+		"src/routes/api/bookings/cancel/+server.ts"
+	],
+	"/api/bookings/propose-reschedule": [
+		"src/routes/api/bookings/propose-reschedule/+server.ts"
+	],
+	"/api/bookings/reschedule": [
+		"src/routes/api/bookings/reschedule/+server.ts"
+	],
+	"/api/calendars/google": [
+		"src/routes/api/calendars/google/+server.ts"
+	],
+	"/api/cron/send-reminders": [
+		"src/routes/api/cron/send-reminders/+server.ts"
+	],
+	"/api/email-templates": [
+		"src/routes/api/email-templates/+server.ts"
+	],
+	"/api/event-type/[slug]": [
+		"src/routes/api/event-type/[slug]/+server.ts"
+	],
+	"/api/profile": [
+		"src/routes/api/profile/+server.ts"
+	],
+	"/auth/callback": [
+		"src/routes/auth/callback/+server.ts"
+	],
+	"/auth/login": [
+		"src/routes/auth/login/+server.ts"
+	],
+	"/auth/logout": [
+		"src/routes/auth/logout/+server.ts"
+	],
+	"/auth/outlook": [
+		"src/routes/auth/outlook/+server.ts"
+	],
+	"/auth/outlook/callback": [
+		"src/routes/auth/outlook/callback/+server.ts"
+	],
+	"/auth/outlook/disconnect": [
+		"src/routes/auth/outlook/disconnect/+server.ts"
+	],
+	"/cancel/[id]": [
+		"src/routes/cancel/[id]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard": [
+		"src/routes/dashboard/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard/availability": [
+		"src/routes/dashboard/availability/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard/calendars": [
+		"src/routes/dashboard/calendars/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard/emails": [
+		"src/routes/dashboard/emails/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard/event-types/new": [
+		"src/routes/dashboard/event-types/new/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/dashboard/event-types/[id]": [
+		"src/routes/dashboard/event-types/[id]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/reschedule-response/[token]": [
+		"src/routes/reschedule-response/[token]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/reschedule/[id]": [
+		"src/routes/reschedule/[id]/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/[slug]": [
+		"src/routes/[slug]/+page.server.ts",
+		"src/routes/+layout.ts"
+	]
+}
